@@ -1,0 +1,27 @@
+.AddTask button div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.AddTask button {
+  background-color: var(--accent-color);
+  border: none;
+  width: 112.35px;
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.AddTask {
+  position: absolute;
+  bottom: -7px;
+  right: -7px;
+}

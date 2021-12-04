@@ -1,5 +1,7 @@
 .MainBody {
-  width: 305px;
   height: calc(100vh - 215px);
   background-color: #d4d4d410;
+  padding: 54px 24px 0 25px;
+  box-sizing: border-box;
+  flex-grow: 1;
 }
