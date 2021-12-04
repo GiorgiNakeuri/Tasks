@@ -1,0 +1,5 @@
+.MainBody {
+  width: 305px;
+  height: calc(100vh - 215px);
+  background-color: #d4d4d410;
+}

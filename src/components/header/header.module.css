@@ -1,0 +1,55 @@
+.header {
+  height: 215px;
+}
+
+.header h1 {
+  font-size: 47px;
+  color: #393939;
+  line-height: 52px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.hamburger {
+  margin: 65px 0 0 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger div {
+  height: 4px;
+  background: #373737;
+  border-radius: 2px;
+  transition: width 0.1s ease-in-out;
+}
+
+.hamburger div:first-child {
+  width: 22px;
+  margin-bottom: 4px;
+}
+
+.hamburger div:last-child {
+  width: 30px;
+}
+
+.hamburger:hover div:first-child {
+  width: 30px;
+}
+
+.hamburger:hover div:last-child {
+  width: 22px;
+}
+
+.content {
+  display: flex;
+  height: 61px;
+  justify-content: space-between;
+  margin: 38px 24px 38px 30px;
+}
+
+.content button {
+  padding: 0;
+  background: none;
+  border: none;
+}

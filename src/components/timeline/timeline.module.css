@@ -1,0 +1,25 @@
+.timeline {
+  width: 70px;
+  height: calc(100vh - 215px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.timeline button {
+  background: none;
+  border: none;
+}
+
+.timeline button p {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.timeline button:first-child {
+  color: var(--accent-color);
+}
