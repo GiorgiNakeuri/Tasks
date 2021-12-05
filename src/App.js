@@ -1,12 +1,10 @@
 import React from "react";
-import { Header } from "./header/header";
-import { Layout } from "./layout/layout";
+import { Home } from "./views/home/home";
 
 function App() {
   return (
     <div id="app-wrapper">
-      <Header />
-      <Layout />
+      <Home />
     </div>
   );
 }
