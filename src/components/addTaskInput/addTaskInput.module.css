@@ -1,0 +1,15 @@
+.AddTaskInput input {
+  margin: 120px 0 0 27px;
+  width: calc(100% - 27px);
+  height: 66px;
+  border: none;
+  outline: none;
+  font-size: 47px;
+  border-bottom: 3px solid #39393950;
+  padding: 0 0 18px 0;
+}
+
+.AddTaskInput input::placeholder {
+  color: #393939;
+  opacity: 0.21;
+}

@@ -1,9 +1,9 @@
 import styles from "./addTask.module.css";
 
-export function AddTask() {
+export function AddTask({ setIsTaskModalOpen }) {
   return (
     <div className={styles.AddTask}>
-      <button>
+      <button onClick={() => setIsTaskModalOpen(true)}>
         <div>
           <img src="/assets/icons/plus.svg" alt="" />
         </div>
