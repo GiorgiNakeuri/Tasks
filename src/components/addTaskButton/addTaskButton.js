@@ -1,11 +1,8 @@
 import style from "./addTaskButton.module.css";
 
-export function AddTaskButton({ setIsTaskModalOpen }) {
+export function AddTaskButton({ onClick }) {
   return (
-    <button
-      onClick={() => setIsTaskModalOpen(false)}
-      className={style.AddTaskButton}
-    >
+    <button onClick={onClick} className={style.AddTaskButton}>
       Add Task
     </button>
   );
